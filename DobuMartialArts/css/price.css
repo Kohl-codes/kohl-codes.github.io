@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-no-img-nav {
+    background-color: #192a56;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.special-title {
+    background-color: #192a56;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-no-img-nav h2 {
+    color: white;
+    margin: 60px 10px -40px 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    background: whitesmoke;
+    margin: 20px;
+}
+
+.wrapper {
+    max-width: 1090px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.wrapper .table {
+    background: #fff;
+    width: calc(33% - 20px);
+    padding: 30px 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.table .price-section {
+    display: flex;
+    justify-content: center;
+}
+
+.table .price-area {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.price-area .inner-area {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    line-height: 117px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.price-area .inner-area .text {
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+    color: #fff;
+}
+
+.price-area .inner-area .price {
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 16px;
+    color: #fff;
+}
+
+.table .package-name {
+    width: 100%;
+    height: 2px;
+    margin: 35px 0;
+    position: relative;
+}
+
+.table .package-name::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 15px;
+    transform: translate(-50%, -50%);
+}
+
+.table .features li {
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features li .list-name {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.features li .icon {
+    font-size: 15px;
+}
+
+.table .btn {
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.table .btn button {
+    width: 80%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.table .btn button:hover {
+    border-radius: 5px;
+}
+
+.basic .features li::selection {
+    background: #192a56;
+}
+
+::selection,
+.price-area,
+.inner-area {
+    background: #192a56;
+}
+
+.basic .btn button {
+    border: 2px solid #4cd137;
+    background: #fff;
+    color: #4cd137;
+}
+
+.basic .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.intermediate .btn button {
+    border: 2px solid #4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.intermediate .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.advanced .btn button {
+    border: 2px solid #4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.advanced .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.elite .btn button {
+    border: 2px solid #4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.elite .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.private .btn button {
+    border: 2px solid #4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.private .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.junior .btn button {
+    border: 2px solid#4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.junior .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.defense .btn button {
+    border: 2px solid#4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.defense .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.fitness-room .btn button {
+    border: 2px solid#4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.fitness-room .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+.fitness .btn button {
+    border: 2px solid#4cd137;
+    color: #4cd137;
+    background: #fff;
+}
+
+.fitness .btn button:hover {
+    background: #4cd137;
+    color: #fff;
+}
+
+
+.package-name {
+    background: #192a56;
+}
+
+.basic .package-name::before {
+    content: "Basic";
+}
+
+.intermediate .package-name::before {
+    content: "Intermediate";
+    font-size: 24px;
+}
+
+.advanced .package-name::before {
+    content: "Advanced";
+    font-size: 24px;
+}
+
+.elite .package-name::before {
+    content: "Elite";
+    font-size: 24px;
+}
+
+.private .package-name::before {
+    content: "Private";
+    font-size: 24px;
+}
+
+.junior .package-name::before {
+    content: "Junior";
+    font-size: 24px;
+}
+
+.defense .package-name::before {
+    content: "Self-Defense";
+    font-size: 20px;
+}
+
+.fitness-room .package-name::before {
+    content: "Fitness Room";
+    font-size: 20px;
+}
+
+.fitness .package-name::before {
+    content: "Fitness Training";
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1020px) {
+    .wrapper .table {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 698px) {
+    .wrapper .table {
+        width: 100%;
+    }
+}
+
+::selection {
+    color: #fff;
+}
