@@ -1,8 +1,13 @@
-<div align="center" style=:"size:100px;">
-  <a href="https://www.java.com/">
-    <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="Java Logo">
-  </a>
-</div>
+<p align="center"><a href="https://www.java.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" width="400" alt="Java Logo"></a></p>
+
+<p align="center">
+  <a href="https://www.oracle.com/java/technologies/java-ee-glance.html"><img src="https://img.shields.io/badge/Java%20EE-javax.servlet-green" alt="Java EE javax.servlet"></a>
+  <a href="https://www.oracle.com/java/technologies/java-ee-glance.html"><img src="https://img.shields.io/badge/Java%20EE-javax.servlet.http-blue" alt="Java EE javax.servlet.http"></a>
+  <a href="https://www.oracle.com/java/technologies/java-ee-glance.html"><img src="https://img.shields.io/badge/Java%20EE-javax.servlet.jsp-orange" alt="Java EE javax.servlet.jsp"></a>
+  <a href="https://www.oracle.com/java/technologies/java-ee-glance.html"><img src="https://img.shields.io/badge/Java%20EE-javax.servlet.jsp.tagext-red" alt="Java EE javax.servlet.jsp.tagext"></a>
+  <a href="https://www.oracle.com/java/technologies/java-ee-glance.html"><img src="https://img.shields.io/badge/Java%20EE-javax.el-yellow" alt="Java EE javax.el"></a>
+</p>
+
 
 # Know Your Neighborhood Web App
 
