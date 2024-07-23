@@ -1,7 +1,7 @@
 <body>
     <div class="container">
         <h1><b>DoBu Martial Arts Website</b></h1>
-        <p>This repository contains a website for DoBu Martial Arts, built using HTML, CSS, and JavaScript.</p>
+        <p>This repository contains a website Design for DoBu Martial Arts, built using HTML, CSS, and JavaScript.</p>
         <h2>Features</h2>
         <ul>
             <li><b>Navigation</b>: Easy-to-navigate menu for Home, About Us, Pricing & Membership, Timetable, Contact Us, and Sign Up.</li>
