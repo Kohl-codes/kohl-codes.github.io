@@ -37,7 +37,7 @@ This web application project includes three main pages designed for managing nei
 1. 📂 **Clone the repository:**
    
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Kohl-codes/kohl-codes.github.io
 2. 🖥️ Open the project in your favorite IDE.
 3. ⚙️ Ensure Java environment (Java EE) is set up.
 4. 🚀 Deploy the project on a server (e.g., Tomcat).
